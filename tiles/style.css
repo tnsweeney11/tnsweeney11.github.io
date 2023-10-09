@@ -1,0 +1,81 @@
+body{
+	margin:0;
+	padding:0;
+  background-color: white;
+
+}
+
+
+
+.outer{
+  text-align: center;
+}
+
+.page{
+	position:relative;
+	margin-top:0px;
+	background-color: white;
+  max-width:1200px;
+  width:100%;
+  height:100%;
+  display: inline-block;
+  text-align: center;
+  height:100%;
+  opacity: .6;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  font-family: 'Lobster', cursive;
+}
+
+.navbar{
+  background-color: red;
+  width: 100%;
+  height: 70px;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+  opacity: .9; 
+  flex-direction: row;
+  flex-wrap: nowrap; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lobster', cursive;
+  font-size: 65px;
+}
+
+
+.tile{
+    background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.tilebg1{
+  background-image: url("img/img2.jpg");
+}
+
+.tilebg2{
+  background-image: url("img/webad.png");
+}
+
+.tilebg3{
+  background-image: url(img/bottles.png);
+}
+
+.tilebg4{
+  background-image: url(img/twitter.jpg);
+}
+
+.tilebg5{
+  background-image: url(img/ad.png);
+}
+
+.tilebg6{
+  background-image: url(img/coke.jpg);
+}
