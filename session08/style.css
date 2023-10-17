@@ -1,0 +1,31 @@
+
+
+
+.side_bar{
+
+  overflow: hidden;
+  margin-bottom:20px;
+  border:1px solid;
+  text-align: left;
+  font-size:20px;
+  padding: 20px;
+  background-color: black;
+  color: skyblue;
+
+}
+
+
+.side_bar img{
+  cursor: pointer;
+  float: right;
+  width: 200px;
+  height: 200px;
+
+}
+
+.side_bar img:hover{
+  
+ transform: scale(2,2);
+
+}
+
